@@ -289,20 +289,7 @@ function sendYandexEcommerce(array, action) {
     script.src = "//code.jivosite.com/widget.js";
     document.getElementsByTagName('head')[0].appendChild(script);
   }, 5500);
-</script> 
-<!-- Begin LeadBack code {literal} -->
-<script>
-    var _emv = _emv || [];
-    _emv['campaign'] = '11a5b5ef81cff7d887970edf';
-   setTimeout(function() { 
-    (function() {
-        var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
-        em.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'leadback.ru/js/leadback.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
-    })();
-	}, 4000);
-</script>
-<!-- End LeadBack code {/literal} -->
+
 
 
 <!--добавлено к раскрытию фильтра на мобиле-->
